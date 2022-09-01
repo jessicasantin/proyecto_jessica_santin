@@ -9,6 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/jessicasantin/proyecto_jessica_santin.git"
   },
+  "build-css": "node-sass --include-path scss SCSS/main.scss CSS/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
   "author": "",
   "license": "ISC",
   "bugs": {
